@@ -1,0 +1,71 @@
+.hero-img {
+    background-image: url("https://images.pexels.com/photos/5624257/pexels-photo-5624257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    min-height: 50vh;
+    background-size: cover;
+}
+
+.first-img {
+    background-image: url(https://www.deere.com/assets/images/common/home-page/333G_SmartGrade_Homepage_632x384.jpg);
+    height: 366px;
+    width: 603px;
+}
+
+.second-img {
+    background-image: url(https://www.deere.com/assets/images/common/home-page/cf-july-home-page-gradient.jpg);
+    height: 366px;
+    width: 603px;
+}
+
+.third-img {
+    background-image: url(https://www.deere.com/assets/images/common/home-page/Aug-JDStore-homepage.jpg);
+    height: 366px;
+    width: 603px;
+}
+
+.forth-img {
+    background-image: url(https://www.deere.com/assets/images/common/home-page/buyonline3-nmb.jpg);
+    height: 366px;
+    width: 603px;
+}
+
+.fifth-img {
+    height: 250px;
+    width: 250px;
+}
+
+.top-pics {
+    height: 100px;
+    width: 145px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mar-cus {
+        margin-top: 1rem;
+    }
+    .mar-bot {
+        padding-bottom: 0;
+    }
+    .mar-top {
+        padding-top: 0;
+    }
+    .pro-wra {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mar-bot {
+        padding-bottom: 1rem;
+    }
+    .mar-top {
+        padding-top: 1rem;
+    }
+    .pro-wra {
+        padding: 2rem;
+    }
+}
